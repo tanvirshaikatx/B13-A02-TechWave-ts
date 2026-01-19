@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>TechWave Podcast</title>
@@ -10,43 +11,62 @@
 <!-- ================= NAVBAR ================= -->
 <header class="navbar">
     <div class="logo">Tech<span>Wave</span></div>
-asd
+
     <nav class="nav-links">
         <a href="#">About</a>
         <a href="#">Episodes</a>
         <a href="#">Host</a>
     </nav>
 
-    <button class="btn-gradient">Subscribe</button>
-
-    <img src="assets/hamburger-menu.png" class="menu-icon" alt="menu">
+    <div class="nav-right">
+        <button class="btn-gradient">Subscribe</button>
+        <img src="assets/hamburger-menu.png" class="menu-icon" alt="menu">
+    </div>
 </header>
 
 
-<!-- ================= HERO / BANNER ================= -->
+
+<!-- HERO SECTION -->
 <section class="hero">
     <div class="hero-content">
-        <img src="assets/hero-circle.png" class="hero-circle" alt="podcast">
+
+        <div class="hero-circle-wrapper">
+            <span class="badge-new">NEW</span>
+
+            <div class="hero-circle">
+                <img src="assets/microphone.png" alt="Microphone">
+            </div>
+        </div>
 
         <h1>TechWave</h1>
-        <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+        <p class="hero-text">
+            Your daily dose of tech insights, productivity hacks, and personal growth
+        </p>
 
         <div class="hero-buttons">
             <button class="btn-primary">
-                <img src="assets/spotify.png" alt=""> Listen on Spotify
+                <img src="assets/spotify.png" alt="">
+                Listen on Spotify
             </button>
-            <button class="btn-outline">
-                <img src="assets/youtube-podcast.png" alt=""> Subscribe
+
+            <button class="btn-subscribe-outline">
+                <img src="assets/youtube-podcast.png" alt="">
+                Subscribe
             </button>
         </div>
+
     </div>
 </section>
 
 <!-- ================= ABOUT ================= -->
 <section class="about">
-    <h2>About The Podcast</h2>
+    <h1>About The Podcast</h1>
     <p class="about-text">
-        TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
+        TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.<br>
+        We break down complex topics into digestible insights, explore productivity strategies that actually work,<br>
+        and share stories of personal growth from industry leaders.<br><br>
+
+        Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
     </p>
 
     <div class="stats">
@@ -70,84 +90,175 @@ asd
 </section>
 
 <!-- ================= WHY CHOOSE ================= -->
-<section class="features">
+<section class="why-choose">
     <h2>Why Choose TechWave</h2>
 
-    <div class="feature-grid">
-        <div class="feature-card">
-            <img src="assets/headphone.png">
+    <div class="why-grid">
+        <div class="card tall">
+            <img src="assets/headphone.png" alt="">
             <h3>Premium Audio Quality</h3>
-            <p>Crystal-clear sound mastered for all platforms.</p>
+            <p>
+                Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering.
+                Every episode is mastered for optimal listening across all devices and platforms.
+            </p>
         </div>
 
-        <div class="feature-card">
-            <img src="assets/device.png">
+        <div class="card">
+            <img src="assets/device.png" alt="">
             <h3>Mobile Friendly</h3>
-            <p>Listen on the go with seamless experience.</p>
+            <p>
+                Listen on the go with seamless mobile experience and offline downloads.
+            </p>
         </div>
 
-        <div class="feature-card">
-            <img src="assets/location.png">
+        <div class="card">
+            <img src="assets/location.png" alt="">
             <h3>Global Community</h3>
-            <p>Listeners from over 120 countries.</p>
+            <p>
+                Connect with tech enthusiasts from over 120 countries worldwide.
+            </p>
         </div>
 
-        <div class="feature-card">
-            <img src="assets/microphone.png">
+        <div class="card wide">
+            <img src="assets/microphone.png" alt="">
             <h3>Exclusive Interviews</h3>
-            <p>Insights from industry leaders.</p>
+            <p>
+                Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures
+                exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and
+                success strategies.
+            </p>
         </div>
 
-        <div class="feature-card">
-            <img src="assets/resource.png">
+        <div class="card wide">
+            <img src="assets/resource.png" alt="">
             <h3>Rich Resources</h3>
-            <p>Show notes and learning materials.</p>
+            <p>
+                Access show notes, transcripts, and additional learning materials for every episode.
+            </p>
         </div>
     </div>
 </section>
 
+
 <!-- ================= EPISODES ================= -->
-<section class="episodes">
-    <h2>Featured Episodes</h2>
+<section class="episodes section">
+    <h2 class="section-title">Featured Episodes</h2>
 
     <div class="episode-grid">
         <div class="episode-card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/KKNCiRWd_j0?si=saaQfuWrUZswm3M8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe
+                src="https://www.youtube.com/embed/KKNCiRWd_j0?si=saaQfuWrUZswm3M8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
             <h3>What Is an AI Anyway?</h3>
-            <p><img src="assets/clock.png"> 22 min</p>
+            <p class="duration">
+                <img src="assets/clock.png" alt=""> 22 min
+            </p>
         </div>
 
         <div class="episode-card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/w4rG5GY9IlA?si=FdyhkDyr3U8TS9uv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe
+                src="https://www.youtube.com/embed/w4rG5GY9IlA?si=FdyhkDyr3U8TS9uv"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
             <h3>Learning Software Engineering During the Era of AI</h3>
-            <p><img src="assets/clock.png"> 12 min</p>
+            <p class="duration">
+                <img src="assets/clock.png" alt=""> 12 min
+            </p>
         </div>
 
         <div class="episode-card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/m8WomdCLBqE?si=cz89TpzBAclZhSMt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe
+                src="https://www.youtube.com/embed/m8WomdCLBqE?si=cz89TpzBAclZhSMt"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
             <h3>Is AI making us dumber? Maybe.</h3>
-            <p><img src="assets/clock.png"> 14 min</p>
+            <p class="duration">
+                <img src="assets/clock.png" alt=""> 14 min
+            </p>
         </div>
     </div>
+</section>
+
+<!-- ================= MEET THE HOST ================= -->
+<section class="host section">
+    <h2 class="section-title">Meet The Host</h2>
+
+    <div class="host-card">
+        <img src="assets/host.png" alt="Host">
+
+        <div class="host-info">
+            <h3>Alex Kumar</h3>
+            <p>
+                Tech entrepreneur, productivity expert, and lifelong learner.
+                Alex has been in the tech industry for over 10 years, working
+                with startups and Fortune 500 companies. Through TechWave,
+                Alex shares insights from industry leaders and practical advice
+                for anyone looking to grow in tech.
+            </p>
+
+            <div class="host-socials">
+                <img src="assets/linkedin.png" alt="">
+                <img src="assets/twitter.png" alt="">
+                <img src="assets/x.png" alt="">
+                <img src="assets/instagram.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
 </section>
 
 
 <!-- ================= FOOTER ================= -->
+<!-- ================= FOOTER ================= -->
 <footer class="footer">
-    <h2>Tech<span>Wave</span></h2>
+    <div class="footer-content">
 
-    <div class="socials">
-        <img src="assets/spotify.png">
-        <img src="assets/apple-podcast.png">
-        <img src="assets/youtube.png">
-        <img src="assets/twitter.png">
+        <h2 class="footer-logo">
+            Tech<span>Wave</span>
+        </h2>
+
+        <div class="footer-platforms">
+            <div class="platform">
+                <img src="assets/spotify.png" alt="">
+                <span>Spotify</span>
+            </div>
+            <div class="platform">
+                <img src="assets/apple-podcast.png" alt="">
+                <span>Apple Podcasts</span>
+            </div>
+            <div class="platform">
+                <img src="assets/youtube.png" alt="">
+                <span>YouTube</span>
+            </div>
+            <div class="platform">
+                <img src="assets/twitter.png" alt="">
+                <span>Twitter</span>
+            </div>
+        </div>
+
+        <p class="footer-copy">
+            © 2026 TechWave Podcast. All rights reserved.
+        </p>
+
     </div>
-
-    <hr>
-
-    <p>© 2026 TechWave Podcast. All rights reserved.</p>
 </footer>
 
 
+
 <body>
-    </html>
+
+</html>
