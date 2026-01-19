@@ -146,3 +146,23 @@ body {
     height: 200px;
     border-radius: 12px;
 }
+/* ================= FOOTER ================= */
+.footer {
+    background: url("assets/footer-bg.png") center/cover;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.footer span {
+    color: #ff3cac;
+}
+
+.socials img {
+    width: 24px;
+    margin: 10px;
+}
+
+hr {
+    margin: 20px 0;
+    opacity: 0.3;
+}
