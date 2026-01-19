@@ -111,3 +111,21 @@ body {
 .stat h3 {
     color: #2dff9a;
 }
+
+
+/* ================= FEATURES ================= */
+.features {
+    padding: 60px 20px;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.feature-card {
+    background: #241046;
+    padding: 20px;
+    border-radius: 16px;
+}
